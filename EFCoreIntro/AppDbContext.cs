@@ -1,5 +1,6 @@
 ﻿using EFCoreIntro.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace EFCoreIntro
 {
@@ -7,9 +8,26 @@ namespace EFCoreIntro
     {
         public DbSet<Student> Students { get; set; }
 
+        private readonly string _connectionString;
+
+        public AppDbContext()
+        {
+            // читаємо конфіг
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appconfig.json")
+                .Build();
+
+            _connectionString = config.GetConnectionString("DefaultConnection");
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EfDemoDb;");
+            // читаємо конфіг
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            optionsBuilder.UseSqlServer(_connectionString);
         }
     }
 }
