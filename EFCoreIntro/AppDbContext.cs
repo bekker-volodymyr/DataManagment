@@ -24,7 +24,7 @@ namespace EFCoreIntro
         {
             // читаємо конфіг
             var config = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appconfig.json")
                 .Build();
 
             optionsBuilder.UseSqlServer(_connectionString);
