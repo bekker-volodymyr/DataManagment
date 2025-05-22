@@ -28,6 +28,8 @@ namespace EFCoreRelations
 
             modelBuilder.Entity<Teacher>().ToTable(t => t.HasCheckConstraint("CK_Teacher_Salary", "[Salary] > 0"));
 
+            modelBuilder.Entity<Student>().De
+
             // Простіший але застарілий варіант
             //modelBuilder.Entity<Teacher>().HasCheckConstraint("CK_Teacher_Salary", "[Salary] > 0");
         }
