@@ -9,4 +9,7 @@
 ## Вміст
 1. [EFCore Intro](https://github.com/bekker-volodymyr/DataManagment/tree/master/EFCoreIntro) - приклад зі вступного заняття. Містить базове налаштування DbContext та простої моделі Student.
    - [EF Core with Sqlite](https://github.com/bekker-volodymyr/DataManagment/tree/master/EFCoreWithSqlite) - приклад налаштування проєкту з використанням SQLite.
+   - [Database First Example](https://github.com/bekker-volodymyr/DataManagment/tree/master/DatabaseFirstExample) - приклад роботи з підходом Database-Frist в EF Core.
 2. [EFCore Relations](https://github.com/bekker-volodymyr/DataManagment/tree/master/EFCoreRelations) - приклад, що містить налаштування зв'язків між таблицями та обмежень (CHECK, UNIQUE).
+3. EFCore Raw SQL _(буде додано пізніше)_
+4. [DapperIntro](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperIntro) - приклад налаштування та базових CRUD-операцій з Dapper.
