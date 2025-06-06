@@ -17,9 +17,7 @@ public class Program
         //AddAuthorWithBooks(connection);
         //ReadAuthorsWithBooks(connection);
         //AddLoan(connection);
-
-        ReadLoans(connection);
-
+        //ReadLoans(connection);
     }
 
     private static void ReadLoans(SqliteConnection connection)
