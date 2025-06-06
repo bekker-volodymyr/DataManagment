@@ -8,5 +8,13 @@ namespace DapperRelations.Entities
         public DateTime DateOfBirth { get; set; }
 
         public Passport? Passport { get; set; }
+
+        // Навігаційна властивість у Visitor
+        public List<LoanInfo> Loans { get; set; } = new();
+
+        public override string ToString()
+        {
+            return $"{Id}. {Name}. {PhoneNumber}. {DateOfBirth}\nPassport: {Passport}";
+        }
     }
 }

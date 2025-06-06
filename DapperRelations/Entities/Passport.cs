@@ -7,5 +7,10 @@ namespace DapperRelations.Entities
         public int VisitorId { get; set; }
 
         public Visitor? Visitor { get; set; }
+
+        public override string ToString()
+        {
+            return $"{PassportNumber}.";
+        }
     }
 }
