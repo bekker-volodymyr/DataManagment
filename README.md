@@ -16,3 +16,4 @@
 5. [Dapper Relations](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperRelations) - приклад, що демонструє налаштування зв'язків між таблицями з Dapper.
 6. [Dapper Bulk Operations](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperBulkOperations) - приклад використання Bulk операцій у Dapper Plus з використанням MySQL БД.
    - [Dapper Bulk Operations Music](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperBulkOperationsMusic) - додатковий приклад виконання Bulk операцій, який демонструє використання GUID.
+   - [Dapper Bulk Operations SQLite](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperBulkOperationsSQLite) - додатковий приклад Bulk операцій з використанням SQLite.
