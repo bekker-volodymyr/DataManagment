@@ -14,3 +14,5 @@
 3. EFCore Raw SQL _(буде додано пізніше)_
 4. [Dapper Intro](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperIntro) - приклад налаштування та базових CRUD-операцій з Dapper.
 5. [Dapper Relations](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperRelations) - приклад, що демонструє налаштування зв'язків між таблицями з Dapper.
+6. [Dapper Bulk Operations](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperBulkOperations) - приклад використання Bulk операцій у Dapper Plus з використанням MySQL БД.
+   - [Dapper Bulk Operations Music](https://github.com/bekker-volodymyr/DataManagment/tree/master/DapperBulkOperationsMusic) - додатковий приклад використання Bulk операцій, який демонструє використання GUID.
